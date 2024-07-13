@@ -3,7 +3,7 @@ using System;
 namespace VehicleRental
 {
 
-public abstract class Vehicle <T>
+public virtual class Vehicle <T>
 {
     private string model;
     private string manufacturer;
@@ -34,6 +34,19 @@ public abstract class Vehicle <T>
         get { return rentalPrice; }
         set { rentalPrice = value; }
     }
+
+    protected Vehicle(string model, string manufacturer, int year, T rentalPrice)
+    {
+        this.model = model;
+        this.manufacturer = manufacturer;
+        this.year = year;
+        this.rentalPrice = rentalPrice;
+    }
+
+    public abstract void DisplayDetails(){
+        Console.WriteLine($"Model: {Model}, Manufacturer: {Manufacturer}, Year: {Year}");
+    }
+
 }
 
 }
