@@ -1,0 +1,15 @@
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/bin/Debug/net8.0/Vehicle Rental Management System
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/bin/Debug/net8.0/Vehicle Rental Management System.deps.json
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/bin/Debug/net8.0/Vehicle Rental Management System.runtimeconfig.json
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/bin/Debug/net8.0/Vehicle Rental Management System.dll
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/bin/Debug/net8.0/Vehicle Rental Management System.pdb
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/obj/Debug/net8.0/Vehicle Rental Management System.GeneratedMSBuildEditorConfig.editorconfig
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/obj/Debug/net8.0/Vehicle Rental Management System.AssemblyInfoInputs.cache
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/obj/Debug/net8.0/Vehicle Rental Management System.AssemblyInfo.cs
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/obj/Debug/net8.0/Vehicle Rental Management System.csproj.CoreCompileInputs.cache
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/obj/Debug/net8.0/Vehicle Rental Management System.sourcelink.json
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/obj/Debug/net8.0/Vehicle Rental Management System.dll
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/obj/Debug/net8.0/refint/Vehicle Rental Management System.dll
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/obj/Debug/net8.0/Vehicle Rental Management System.pdb
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/obj/Debug/net8.0/Vehicle Rental Management System.genruntimeconfig.cache
+/Users/johnkaka/PycharmProjects/Vehicle Rental Management System/Vehicle Rental Management System/obj/Debug/net8.0/ref/Vehicle Rental Management System.dll
