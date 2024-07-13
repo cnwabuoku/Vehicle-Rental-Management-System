@@ -1,14 +1,14 @@
 using System;
  
-namespace VehicleRental
+namespace VehicleRentalManagementSystem
 {
 
-public abstract class Vehicle <T>
+public abstract class Vehicle
 {
     private string model;
     private string manufacturer;
     private int year;
-    private T rentalPrice;
+    private decimal rentalPrice;
 
     // Public properties with getter and setter methods
     public string Model
@@ -29,13 +29,13 @@ public abstract class Vehicle <T>
         set { year = value; }
     }
 
-    public T RentalPrice
+    public decimal RentalPrice
     {
         get { return rentalPrice; }
         set { rentalPrice = value; }
     }
 
-    protected Vehicle(string model, string manufacturer, int year, T rentalPrice)
+    protected Vehicle(string model, string manufacturer, int year, decimal rentalPrice)
     {
         this.model = model;
         this.manufacturer = manufacturer;
