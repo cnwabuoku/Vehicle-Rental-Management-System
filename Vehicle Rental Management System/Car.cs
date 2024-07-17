@@ -32,7 +32,7 @@ public class Car : Vehicle
         Console.WriteLine("Seats: {0}", Seats);
         Console.WriteLine("Engine Type: {0}", EngineType);
         Console.WriteLine("Transmission: {0}", Transmission);
-        Console.WriteLine("Convertible: {0}", Convertible);
+        Console.WriteLine("Convertible: {0}\n", Convertible);
     }
 }
        

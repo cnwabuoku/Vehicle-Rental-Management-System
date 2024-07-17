@@ -9,6 +9,9 @@ namespace VehicleRentalManagementSystem
     {
         Car car = new Car("Model S", "Tesla", 2020, 99.99m, 5, "Electric", "Automatic", true);
         car.DisplayDetails();
+
+        Truck truck = new Truck(" ", " ", 1995, 250, 4, " ", true );
+        truck.DisplayDetails();
     }
 
  }

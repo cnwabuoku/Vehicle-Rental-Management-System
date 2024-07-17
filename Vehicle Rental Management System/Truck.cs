@@ -24,7 +24,7 @@ public class Truck : Vehicle
             Console.WriteLine("Year: {0}", Year);
             Console.WriteLine("Rental Price: {0}", RentalPrice);
             Console.WriteLine("Seats: {0}", Capacity);
-            Console.WriteLine("Engine Type: {0}", TruckType);
+            Console.WriteLine("Truck Type: {0}", TruckType);
             Console.WriteLine("Transmission: {0}", FourWhealDrive);
             Console.WriteLine("");
         }
