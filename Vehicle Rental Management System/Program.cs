@@ -22,6 +22,18 @@ namespace VehicleRentalManagementSystem
 
         Console.WriteLine("\nCurrent fleet: ");
         agency.DisplayFleet();
+
+        agency.RentVehicle(car);
+        Console.WriteLine("\nFleet after renting a car:");
+        agency.DisplayFleet();
+
+        Console.WriteLine("\nTotal Revenue: {0:C}\n", agency.TotalRevenue);
+
+        agency.RentVehicle(motorcycle);
+        Console.WriteLine("\nFleet after renting a motorcycle:");
+        agency.DisplayFleet();
+
+        Console.WriteLine("\nTotal Revenue: {0:C}\n", agency.TotalRevenue);
     }
  }
 }
