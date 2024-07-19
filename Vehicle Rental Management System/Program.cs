@@ -34,6 +34,8 @@ namespace VehicleRentalManagementSystem
             agency.DisplayFleet();
 
             Console.WriteLine("\nTotal Revenue: {0:C}\n", agency.TotalRevenue);
+
+            agency.RentVehicle(car);
         }
     }
 }
