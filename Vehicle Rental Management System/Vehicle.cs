@@ -5,6 +5,7 @@ namespace VehicleRentalManagementSystem
 
 public abstract class Vehicle
 {
+    // Private properties for the Vehicle class
     private string model;
     private string manufacturer;
     private int year;
@@ -35,6 +36,7 @@ public abstract class Vehicle
         set { rentalPrice = value; }
     }
 
+    // Protected constructor
     protected Vehicle(string model, string manufacturer, int year, decimal rentalPrice)
     {
         this.model = model;
@@ -46,5 +48,4 @@ public abstract class Vehicle
     public abstract void DisplayDetails();
 
 }
-
 }

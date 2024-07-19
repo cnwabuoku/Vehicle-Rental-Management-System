@@ -27,7 +27,6 @@ public class Car : Vehicle
         Console.WriteLine("Car. Model: {0}, Manufacturer: {1}, Year: {2}, Rental Price: {3}", Model, Manufacturer, Year, RentalPrice);
         Console.WriteLine("     Seats: {0}, Engine Type: {1}, Transmission: {2}, Convertible: {3}\n", Seats, EngineType, Transmission, Convertible);
     }
-}
-       
+}   
 }
 

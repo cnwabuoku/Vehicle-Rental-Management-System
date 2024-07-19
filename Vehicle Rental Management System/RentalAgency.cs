@@ -11,20 +11,23 @@ namespace VehicleRentalManagementSystem
 
         public RentalAgency()
         {
-            Fleet = [];
-            TotalRevenue = 0;
+            Fleet = [];             // Property for the list of vehicles
+            TotalRevenue = 0;       // Property to track the total revenue earned by the rental agency
         }
 
+        // Method to add a vehicle to the list
         public void AddVehicle(Vehicle vehicle)
         {
             Fleet.Add(vehicle);
         }
 
+        // Method to remove a vehicle from the list
         public void RemoveVehicle(Vehicle vehicle)
         {
             Fleet.Remove(vehicle);
         }
 
+        // Method to rent a vehicle
         public void RentVehicle(Vehicle vehicle)
         {
             if (Fleet.Contains(vehicle))
@@ -39,6 +42,7 @@ namespace VehicleRentalManagementSystem
         }
         }
 
+        // Method to display the list of vehicles available for rental
         public void DisplayFleet()
         {
             foreach (var vehicle in Fleet)
