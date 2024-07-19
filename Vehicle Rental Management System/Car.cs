@@ -21,7 +21,7 @@ public class Car : Vehicle
         Convertible = convertible;
     }
 
-    // Implementation of the abstract method
+    // Override DisplayDetails() method
     public override void DisplayDetails()
     {
         Console.WriteLine("Car. Model: {0}, Manufacturer: {1}, Year: {2}, Rental Price: {3}", Model, Manufacturer, Year, RentalPrice);

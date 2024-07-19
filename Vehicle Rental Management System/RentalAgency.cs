@@ -38,7 +38,7 @@ namespace VehicleRentalManagementSystem
         }
         else
         {
-            Console.WriteLine("Vehicle not available for rent.");
+            Console.WriteLine("Vehicle not available for rent.\n");
         }
         }
 

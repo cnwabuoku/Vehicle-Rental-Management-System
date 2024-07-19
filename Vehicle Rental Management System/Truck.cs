@@ -19,7 +19,7 @@ namespace VehicleRentalManagementSystem
         FourWheelDrive = fourWheelDrive;
     }
 
-    // Implementation of the abstract method
+    // Override DisplayDetails() method
     public override void DisplayDetails()
     {
         Console.WriteLine("Truck. Model: {0}, Manufacturer: {1}, Year: {2}, Rental Price: {3}", Model, Manufacturer, Year, RentalPrice);
