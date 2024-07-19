@@ -24,15 +24,8 @@ public class Car : Vehicle
     // Implementation of the abstract method
     public override void DisplayDetails()
     {
-        Console.WriteLine("Car Details:");
-        Console.WriteLine("Model: {0}", Model);
-        Console.WriteLine("Manufacturer: {0}", Manufacturer);
-        Console.WriteLine("Year: {0}", Year);
-        Console.WriteLine($"Rental Price: {RentalPrice}");
-        Console.WriteLine("Seats: {0}", Seats);
-        Console.WriteLine("Engine Type: {0}", EngineType);
-        Console.WriteLine("Transmission: {0}", Transmission);
-        Console.WriteLine("Convertible: {0}\n", Convertible);
+        Console.WriteLine("Car. Model: {0}, Manufacturer: {1}, Year: {2}, Rental Price: {3}", Model, Manufacturer, Year, RentalPrice);
+        Console.WriteLine("     Seats: {0}, Engine Type: {1}, Transmission: {2}, Convertible: {3}\n", Seats, EngineType, Transmission, Convertible);
     }
 }
        

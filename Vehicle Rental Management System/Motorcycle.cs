@@ -19,14 +19,8 @@ public class Motorcycle : Vehicle
 
         public override void DisplayDetails()
         {
-            Console.WriteLine("Motorcycle Details:");
-            Console.WriteLine("Model: {0}", Model);
-            Console.WriteLine("Manufacturer: {0}", Manufacturer);
-            Console.WriteLine("Year: {0}", Year);
-            Console.WriteLine("Rental Price: {0}", RentalPrice);
-            Console.WriteLine("Engine Capacity: {0}", EngineCapacity);
-            Console.WriteLine("Fuel type: {0}", FuelType);
-            Console.WriteLine("Has Fairing: {0}", HasFairing);
+            Console.WriteLine("Motorcycle. Model: {0}, Manufacturer: {1}, Year: {2}, Rental Price: {3}", Model, Manufacturer, Year, RentalPrice);
+            Console.WriteLine("            Engine Capacity: {0}, Fuel type: {1}, Has Fairing: {2}\n", EngineCapacity, FuelType, HasFairing);
         }
     }
 }

@@ -7,26 +7,19 @@ public class Truck : Vehicle
 {
     public int Capacity { get; set; }
     public string TruckType { get; set; }
-    public bool FourWhealDrive { get; set; }
+    public bool FourWheelDrive { get; set; }
 
     public Truck(string model, string manufacturer, int year, decimal rentalPrice, int capacity, string truckType, bool fourWheelDrive)
         : base(model, manufacturer, year, rentalPrice)
         {
             Capacity = capacity;
             TruckType = truckType;
-            FourWhealDrive = fourWheelDrive;
+            FourWheelDrive = fourWheelDrive;
         }
         public override void DisplayDetails()
         {
-            Console.WriteLine("Truck Details:");
-            Console.WriteLine("Model: {0}", Model);
-            Console.WriteLine("Manufacturer: {0}", Manufacturer);
-            Console.WriteLine("Year: {0}", Year);
-            Console.WriteLine("Rental Price: {0}", RentalPrice);
-            Console.WriteLine("Seats: {0}", Capacity);
-            Console.WriteLine("Truck Type: {0}", TruckType);
-            Console.WriteLine("Transmission: {0}", FourWhealDrive);
-            Console.WriteLine("");
+            Console.WriteLine("Truck. Model: {0}, Manufacturer: {1}, Year: {2}, Rental Price: {3}", Model, Manufacturer, Year, RentalPrice);
+            Console.WriteLine("       Capacity: {0}, Truck Type: {1}, Four Wheel Drive: {2}\n", Capacity, TruckType, FourWheelDrive);
         }
 
     }
