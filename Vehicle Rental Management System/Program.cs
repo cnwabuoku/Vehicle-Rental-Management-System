@@ -41,6 +41,9 @@ namespace VehicleRentalManagementSystem
             
             // Try to rent the same car previously rented 
             agency.RentVehicle(car);
+
+            agency.RemoveVehicle(truck);
+            agency.DisplayFleet();
         }
     }
 }

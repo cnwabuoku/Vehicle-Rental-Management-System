@@ -19,12 +19,14 @@ namespace VehicleRentalManagementSystem
         public void AddVehicle(Vehicle vehicle)
         {
             _fleet.Add(vehicle);
+            Console.WriteLine("Vehicle: {0}, {1} added to fleet", vehicle.Manufacturer, vehicle.Model);
         }
 
         // Method to remove a vehicle from the list
         public void RemoveVehicle(Vehicle vehicle)
         {
             _fleet.Remove(vehicle);
+            Console.WriteLine("Vehicle: {0}, {1} removed from fleet", vehicle.Manufacturer, vehicle.Model);
         }
 
         // Method to rent a vehicle
